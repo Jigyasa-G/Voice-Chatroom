@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="room-header">
+ 
+         <h1 id="room-name"></h1>
+ 
+         <div id="room-header-controls">
+           <img id="mic-icon" class="control-icon" src="icons/mic-off.svg" />
+           <img id="leave-icon" class="control-icon" src="icons/leave.svg" />
+         </div>
+       </div>
+ 
+       <form id="form">
+          <div>
+            <h3>Select An Avatar:</h3>
+          </div>
+          <div id="avatars">
+              <img class="avatar-selection" src="avatars/male-1.png"/>
+              <img class="avatar-selection" src="avatars/male-2.png"/>
+              <img class="avatar-selection" src="avatars/male-4.png"/>
+              <img class="avatar-selection" src="avatars/male-5.png"/>
+        
+              <img class="avatar-selection" src="avatars/female-1.png"/>
+              <img class="avatar-selection" src="avatars/female-2.png"/>
+              <img class="avatar-selection" src="avatars/female-4.png"/>
+              <img class="avatar-selection" src="avatars/female-5.png"/>
+          </div>
+
+        <div id="form-fields">
+            <label>Display Name:</label>
+            <input name="displayname" type="text" placeholder="Enter username..." required/>
+    
+            <label>Room Name:</label>
+            <input name="roomname" type="text" placeholder="Enter room name..." required/>
+    
+            <input type="submit" value="Enter Room"/>
+        </div>
+    </form>
+ 
+     <div id="members">
+ 
+     </div>
+ </div>
+ <!-- <div>
+  <h4>
+    Visit DSCE
+    <p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7778.261721648648!2d77.5535559!3d12.8993059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae156310100001%3A0x71be53da4480fbbe!2sDayananda%20Sagar%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1681455033804!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+  </h4>
+ </div> -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
